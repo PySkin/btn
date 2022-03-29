@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <meta name="viewport" content="width=device-width">
+       
         <style>
             main{
                 height:500px;
@@ -23,17 +26,20 @@
             
         </style>
         
+         <script>
+          function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+          }
+        </script>    
+        
     </head>
-    <script>
-      function play() {
-        var audio = document.getElementById("audio");
-        audio.play();
-      }
-    </script>
+   
+    
     <body>
         <main>
             <button onclick="play()">Click here...</button>
-            <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+            <audio id="audio" src="button.mp3"></audio>
         </main>
     </body>
     
