@@ -2,16 +2,17 @@
 <html>
     <head>
         <style>
-            body{
+            main{
+                height:500px;
+                width:500px;
                 text-align: center;
+                margin:auto;
                 margin-top: 30vh;
-                
             }
             
             button{
                 padding: 15px;
                 font-family: sans-serif;
-                
             }
         </style>
         
@@ -23,8 +24,10 @@
       }
     </script>
     <body>
-        <button onclick="play()">Button</button>
-        <audio id="audio" src="button.mp3"></audio>
+        <main>
+            <button onclick="play()">Click here...</button>
+            <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+        </main>
     </body>
     
 
