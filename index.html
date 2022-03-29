@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+                margin-top: 30vh;
+                
+            }
+            
+            button{
+                padding: 15px;
+                font-family: sans-serif;
+                
+            }
+        </style>
+        
+    </head>
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+    <body>
+        <button onclick="play()">Click here...</button>
+        <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+    </body>
+    
+
+</html>
